@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="images/favicon.png" type="images/png">
+  <title>Safe Memories - Ochrona Twoich Wspomnień</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/home.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header" id="header">
+    <div class="container">
+      <div class="header__content">
+        <a href="index.html" class="logo">
+          <span class="logo__text">Safe<span class="logo__highlight">Memories</span></span>
+        </a>
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item"><a href="index.html" class="nav__link nav__link--active" data-translate="home">Strona główna</a></li>
+            <li class="nav__item"><a href="about.html" class="nav__link" data-translate="about">O nas</a></li>
+          </ul>
+        </nav>
+        <button class="language-toggle" id="languageToggle">EN</button>
+        <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+          <span class="menu-toggle__bar"></span>
+          <span class="menu-toggle__bar"></span>
+          <span class="menu-toggle__bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <div class="hero__content">
+          <h1 class="hero__title" data-translate="hero-title">
+            Twoje zdjęcia są częściowo chronione
+          </h1>
+          <p class="hero__description" data-translate="hero-description">
+            Aby dokończyć proces i przywrócić pełny dostęp — aktywuj dostęp premium.
+          </p>
+          <a href="https://t.me/SafeMemoriesBot" class="button button--primary" id="telegramButton" data-translate="telegram-button" target="_blank" rel="noopener noreferrer">
+            Przejdź do Telegram Bota
+          </a>
+        </div>
+        <div class="hero__image">
+          <img src="images/safe-memories-2.jpg" alt="Safe Memories Protection" class="hero__illustration">
+        </div>
+      </div>
+    </section>
+
+    <section class="features">
+      <div class="container">
+        <h2 class="section-title" data-translate="features-title">
+          Dlaczego warto aktywować pełną ochronę?
+        </h2>
+        <div class="features__grid">
+          <div class="feature">
+            <img src="images/safe-memories-1.jpg" alt="Security Feature" class="feature__image">
+            <h3 class="feature__title" data-translate="security-title">Pełne bezpieczeństwo</h3>
+            <p class="feature__description" data-translate="security-description">
+              Chronimy Twoje zdjęcia przed nieautoryzowanym dostępem.
+            </p>
+          </div>
+          <div class="feature">
+            <img src="images/safe-memories-3.jpg" alt="Backup Feature" class="feature__image">
+            <h3 class="feature__title" data-translate="backup-title">Kopie zapasowe</h3>
+            <p class="feature__description" data-translate="backup-description">
+              Twoje wspomnienia są zawsze bezpieczne w chmurze.
+            </p>
+          </div>
+          <div class="feature">
+            <img src="images/safe-memories-4.jpg" alt="Privacy Feature" class="feature__image">
+            <h3 class="feature__title" data-translate="privacy-title">Prywatność</h3>
+            <p class="feature__description" data-translate="privacy-description">
+              Tylko Ty decydujesz, kto ma dostęp do Twoich wspomnień.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta">
+      <div class="container">
+        <div class="cta__content">
+          
+          <h2 class="cta__title" data-translate="cta-title">
+            Odzyskaj pełny dostęp już teraz
+          </h2>
+          <p class="cta__description" data-translate="cta-description">
+            Tylko kilka kroków dzieli Cię od pełnej ochrony Twoich wspomnień.
+          </p>
+
+          <a href="https://t.me/SafeMemoriesBot" class="button button--primary" id="telegramButton" data-translate="telegram-button" target="_blank" rel="noopener noreferrer">
+            Aktywuj w Telegram
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__content">
+        <div class="footer__logo">
+          <span class="logo__text">Safe<span class="logo__highlight">Memories</span></span>
+        </div>
+        <div class="footer__links">
+          <a href="about.html" class="footer__link" data-translate="footer-about">O nas</a>
+          <a href="#" class="footer__link" data-translate="footer-privacy">Polityka prywatności</a>
+          <a href="#" class="footer__link" data-translate="footer-terms">Warunki korzystania</a>
+        </div>
+        <div class="footer__copyright">
+          <p>© 2025 Safe Memories. <span data-translate="footer-rights">Wszelkie prawa zastrzeżone.</span></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
