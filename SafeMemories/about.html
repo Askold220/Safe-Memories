@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>O nas - Safe Memories</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/about.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header" id="header">
+    <div class="container">
+      <div class="header__content">
+        <a href="index.html" class="logo">
+          <span class="logo__text">Safe<span class="logo__highlight">Memories</span></span>
+        </a>
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item"><a href="index.html" class="nav__link" data-translate="home">Strona główna</a></li>
+            <li class="nav__item"><a href="about.html" class="nav__link nav__link--active" data-translate="about">O nas</a></li>
+          </ul>
+        </nav>
+        <button class="language-toggle" id="languageToggle">EN</button>
+        <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+          <span class="menu-toggle__bar"></span>
+          <span class="menu-toggle__bar"></span>
+          <span class="menu-toggle__bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="about-hero">
+      <div class="container">
+        <div class="about-hero__content">
+          <h1 class="about-hero__title" data-translate="about-hero-title">O Safe Memories</h1>
+          <p class="about-hero__description" data-translate="about-hero-description">
+            Safe Memories to serwis zapewniający bezpieczeństwo i ochronę Twoich cyfrowych wspomnień.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-mission">
+      <div class="container">
+        <div class="about-mission__content">
+          <div class="about-mission__text">
+            <h2 class="section-title" data-translate="about-mission-title">Nasza misja</h2>
+            <p class="about-mission__paragraph" data-translate="about-mission-p1">
+              Safe Memories to serwis, zapewniający bezpieczeństwo i zachowanie Twoich cyfrowych wspomnień. Nasza misja polega na dostarczaniu użytkownikom niezawodnych narzędzi do ochrony osobistych danych i zdjęć.
+            </p>
+            <p class="about-mission__paragraph" data-translate="about-mission-p2">
+              Wierzymy, że każde wspomnienie jest bezcenne i zasługuje na najwyższy poziom ochrony. Dlatego stworzyliśmy kompleksowe rozwiązanie, które zabezpiecza Twoje zdjęcia przed nieautoryzowanym dostępem, utratą czy uszkodzeniem.
+            </p>
+          </div>
+          <div class="about-mission__image">
+            <div class="about-mission__image-placeholder"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-values">
+      <div class="container">
+        <h2 class="section-title" data-translate="about-values-title">Nasze wartości</h2>
+        <div class="values__grid">
+          <div class="value">
+            <h3 class="value__title" data-translate="about-value-1-title">Bezpieczeństwo</h3>
+            <p class="value__description" data-translate="about-value-1-desc">
+              Wykorzystujemy najnowocześniejsze technologie szyfrowania, aby zapewnić maksymalną ochronę Twoim danym.
+            </p>
+          </div>
+          <div class="value">
+            <h3 class="value__title" data-translate="about-value-2-title">Prywatność</h3>
+            <p class="value__description" data-translate="about-value-2-desc">
+              Respektujemy Twoją prywatność i nigdy nie udostępniamy Twoich danych osobom trzecim bez Twojej zgody.
+            </p>
+          </div>
+          <div class="value">
+            <h3 class="value__title" data-translate="about-value-3-title">Niezawodność</h3>
+            <p class="value__description" data-translate="about-value-3-desc">
+              Nasze systemy działają 24/7, zapewniając ciągły dostęp do Twoich zabezpieczonych wspomnień.
+            </p>
+          </div>
+          <div class="value">
+            <h3 class="value__title" data-translate="about-value-4-title">Prostota</h3>
+            <p class="value__description" data-translate="about-value-4-desc">
+              Oferujemy intuicyjne rozwiązania, które są łatwe w użyciu dla każdego.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact">
+      <div class="container">
+        <h2 class="section-title" data-translate="contact-title">Kontakt</h2>
+        <div class="contact__content">
+          <div class="contact__info">
+            <p class="contact__text" data-translate="contact-text">
+              Masz pytania? Skontaktuj się z nami:
+            </p>
+            <p class="contact__email">contact@safememories.pl</p>
+            <a href="https://t.me/SafeMemoriesBot" class="button button--primary" data-translate="contact-button">
+              Telegram Bot
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__content">
+        <div class="footer__logo">
+          <span class="logo__text">Safe<span class="logo__highlight">Memories</span></span>
+        </div>
+        <div class="footer__links">
+          <a href="about.html" class="footer__link" data-translate="footer-about">O nas</a>
+          <a href="#" class="footer__link" data-translate="footer-privacy">Polityka prywatności</a>
+          <a href="#" class="footer__link" data-translate="footer-terms">Warunki korzystania</a>
+        </div>
+        <div class="footer__copyright">
+          <p>© 2025 Safe Memories. <span data-translate="footer-rights">Wszelkie prawa zastrzeżone.</span></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
